@@ -1,0 +1,27 @@
+{
+  "name": "requirejs-worker",
+  "version": "1.0.0",
+  "description": "requirejs worker loader",
+  "main": "worker.js",
+  "scripts": {
+    "test": "test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laoshu133/requirejs-worker.git"
+  },
+  "keywords": [
+    "require",
+    "worker",
+    "loader"
+  ],
+  "author": "laoshu133",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laoshu133/requirejs-worker/issues"
+  },
+  "homepage": "https://github.com/laoshu133/requirejs-worker#readme",
+  "devDependencies": {
+    "requirejs": "^2.2.0"
+  }
+}
