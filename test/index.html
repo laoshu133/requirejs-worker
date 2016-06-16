@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Requirejs Worker loader test</title>
+</head>
+<body>
+    <h1>Open console</h1>
+
+    <script src="../node_modules/requirejs/require.js"></script>
+    <script>
+    requirejs.config({
+        paths: {
+            baseUrl: './',
+            worker: '../worker'
+        }
+    });
+
+    require(['./main']);
+    </script>
+</body>
+</html>
